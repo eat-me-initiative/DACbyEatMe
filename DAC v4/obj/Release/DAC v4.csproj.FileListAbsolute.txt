@@ -1,0 +1,5 @@
+C:\Users\Yssentrick\Desktop\DAC_V4\DAC v4\obj\Release\DAC v4.csprojAssemblyReference.cache
+C:\Users\Yssentrick\Desktop\DAC_V4\DAC v4\obj\Release\DAC_v4.DAC.resources
+C:\Users\Yssentrick\Desktop\DAC_V4\DAC v4\obj\Release\DAC_v4.Properties.Resources.resources
+C:\Users\Yssentrick\Desktop\DAC_V4\DAC v4\obj\Release\DAC v4.csproj.GenerateResource.cache
+C:\Users\Yssentrick\Desktop\DAC_V4\DAC v4\obj\Release\DAC v4.csproj.CoreCompileInputs.cache
