@@ -56,5 +56,61 @@ namespace DACbyEatMe
         {
 
         }
+
+
+
+        //user name text box
+        private void username_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+
+        //invite text box
+        private void inviteBox_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+
+        //text box 3
+        private void textBox3_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+
+        //check box for random user names
+        private void randomChecked_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+
+        //check box 2
+        private void checkBox2_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+
+        //start button
+        private void Start_Click(object sender, EventArgs e)
+        {
+
+        }
+
+
+        //get proxies button
+        private void getProxies_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        //close button to close the program
+        private void closeButton_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
     }
 }
