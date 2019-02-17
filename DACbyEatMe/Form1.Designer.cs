@@ -28,58 +28,58 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.getProxies = new System.Windows.Forms.Button();
+            this.Start = new System.Windows.Forms.Button();
+            this.username = new System.Windows.Forms.TextBox();
+            this.inviteBox = new System.Windows.Forms.TextBox();
+            this.randomChecked = new System.Windows.Forms.CheckBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.checkBox2 = new System.Windows.Forms.CheckBox();
             this.SuspendLayout();
             // 
-            // button1
+            // getProxies
             // 
-            this.button1.Location = new System.Drawing.Point(268, 102);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "get proxies";
-            this.button1.UseVisualStyleBackColor = true;
+            this.getProxies.Location = new System.Drawing.Point(268, 102);
+            this.getProxies.Name = "getProxies";
+            this.getProxies.Size = new System.Drawing.Size(75, 23);
+            this.getProxies.TabIndex = 0;
+            this.getProxies.Text = "get proxies";
+            this.getProxies.UseVisualStyleBackColor = true;
             // 
-            // button2
+            // Start
             // 
-            this.button2.Location = new System.Drawing.Point(268, 29);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "start";
-            this.button2.UseVisualStyleBackColor = true;
+            this.Start.Location = new System.Drawing.Point(268, 29);
+            this.Start.Name = "Start";
+            this.Start.Size = new System.Drawing.Size(75, 23);
+            this.Start.TabIndex = 1;
+            this.Start.Text = "start";
+            this.Start.UseVisualStyleBackColor = true;
             // 
-            // textBox1
+            // username
             // 
-            this.textBox1.Location = new System.Drawing.Point(12, 12);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
-            this.textBox1.TabIndex = 2;
-            this.textBox1.Text = "username";
+            this.username.Location = new System.Drawing.Point(12, 12);
+            this.username.Name = "username";
+            this.username.Size = new System.Drawing.Size(100, 20);
+            this.username.TabIndex = 2;
+            this.username.Text = "username";
             // 
-            // textBox2
+            // inviteBox
             // 
-            this.textBox2.Location = new System.Drawing.Point(12, 66);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 20);
-            this.textBox2.TabIndex = 3;
-            this.textBox2.Text = "invites";
+            this.inviteBox.Location = new System.Drawing.Point(12, 66);
+            this.inviteBox.Name = "inviteBox";
+            this.inviteBox.Size = new System.Drawing.Size(100, 20);
+            this.inviteBox.TabIndex = 3;
+            this.inviteBox.Text = "invites";
             // 
-            // checkBox1
+            // randomChecked
             // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(118, 12);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(61, 17);
-            this.checkBox1.TabIndex = 4;
-            this.checkBox1.Text = "random";
-            this.checkBox1.UseVisualStyleBackColor = true;
+            this.randomChecked.AutoSize = true;
+            this.randomChecked.Location = new System.Drawing.Point(118, 12);
+            this.randomChecked.Name = "randomChecked";
+            this.randomChecked.Size = new System.Drawing.Size(61, 17);
+            this.randomChecked.TabIndex = 4;
+            this.randomChecked.Text = "random";
+            this.randomChecked.UseVisualStyleBackColor = true;
             // 
             // textBox3
             // 
@@ -105,13 +105,14 @@
             this.ClientSize = new System.Drawing.Size(364, 178);
             this.Controls.Add(this.checkBox2);
             this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.checkBox1);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.randomChecked);
+            this.Controls.Add(this.inviteBox);
+            this.Controls.Add(this.username);
+            this.Controls.Add(this.Start);
+            this.Controls.Add(this.getProxies);
             this.Name = "Form1";
             this.Text = "DAC by Eat Me";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -119,11 +120,11 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.CheckBox checkBox1;
+        private System.Windows.Forms.Button getProxies;
+        private System.Windows.Forms.Button Start;
+        private System.Windows.Forms.TextBox username;
+        private System.Windows.Forms.TextBox inviteBox;
+        private System.Windows.Forms.CheckBox randomChecked;
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.CheckBox checkBox2;
     }
