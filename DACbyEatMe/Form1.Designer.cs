@@ -40,21 +40,21 @@
             // 
             // getProxies
             // 
-            this.getProxies.Location = new System.Drawing.Point(277, 114);
+            this.getProxies.Location = new System.Drawing.Point(307, 114);
             this.getProxies.Name = "getProxies";
             this.getProxies.Size = new System.Drawing.Size(75, 23);
             this.getProxies.TabIndex = 0;
-            this.getProxies.Text = "get proxies";
+            this.getProxies.Text = "Get Proxies";
             this.getProxies.UseVisualStyleBackColor = true;
             this.getProxies.Click += new System.EventHandler(this.getProxies_Click);
             // 
             // Start
             // 
-            this.Start.Location = new System.Drawing.Point(277, 85);
+            this.Start.Location = new System.Drawing.Point(307, 85);
             this.Start.Name = "Start";
             this.Start.Size = new System.Drawing.Size(75, 23);
             this.Start.TabIndex = 1;
-            this.Start.Text = "start";
+            this.Start.Text = "Start";
             this.Start.UseVisualStyleBackColor = true;
             this.Start.Click += new System.EventHandler(this.Start_Click);
             // 
@@ -62,28 +62,28 @@
             // 
             this.username.Location = new System.Drawing.Point(12, 12);
             this.username.Name = "username";
-            this.username.Size = new System.Drawing.Size(100, 20);
+            this.username.Size = new System.Drawing.Size(129, 20);
             this.username.TabIndex = 2;
-            this.username.Text = "username";
+            this.username.Text = "Username";
             this.username.TextChanged += new System.EventHandler(this.username_TextChanged);
             // 
             // inviteBox
             // 
             this.inviteBox.Location = new System.Drawing.Point(12, 66);
             this.inviteBox.Name = "inviteBox";
-            this.inviteBox.Size = new System.Drawing.Size(100, 20);
+            this.inviteBox.Size = new System.Drawing.Size(129, 20);
             this.inviteBox.TabIndex = 3;
-            this.inviteBox.Text = "invites";
+            this.inviteBox.Text = "Invite Links";
             this.inviteBox.TextChanged += new System.EventHandler(this.inviteBox_TextChanged);
             // 
             // randomChecked
             // 
             this.randomChecked.AutoSize = true;
-            this.randomChecked.Location = new System.Drawing.Point(118, 12);
+            this.randomChecked.Location = new System.Drawing.Point(147, 14);
             this.randomChecked.Name = "randomChecked";
-            this.randomChecked.Size = new System.Drawing.Size(61, 17);
+            this.randomChecked.Size = new System.Drawing.Size(117, 17);
             this.randomChecked.TabIndex = 4;
-            this.randomChecked.Text = "random";
+            this.randomChecked.Text = "Random Username";
             this.randomChecked.UseVisualStyleBackColor = true;
             this.randomChecked.CheckedChanged += new System.EventHandler(this.randomChecked_CheckedChanged);
             // 
@@ -91,24 +91,25 @@
             // 
             this.textBox3.Location = new System.Drawing.Point(12, 126);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(100, 20);
+            this.textBox3.Size = new System.Drawing.Size(129, 20);
             this.textBox3.TabIndex = 5;
+            this.textBox3.Text = "Another Stupid Textbox";
             this.textBox3.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
             // 
             // checkBox2
             // 
             this.checkBox2.AutoSize = true;
-            this.checkBox2.Location = new System.Drawing.Point(118, 68);
+            this.checkBox2.Location = new System.Drawing.Point(147, 66);
             this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(80, 17);
+            this.checkBox2.Size = new System.Drawing.Size(147, 17);
             this.checkBox2.TabIndex = 6;
-            this.checkBox2.Text = "checkBox2";
+            this.checkBox2.Text = "Another Stupid Checkbox";
             this.checkBox2.UseVisualStyleBackColor = true;
             this.checkBox2.CheckedChanged += new System.EventHandler(this.checkBox2_CheckedChanged);
             // 
             // closeButton
             // 
-            this.closeButton.Location = new System.Drawing.Point(277, 143);
+            this.closeButton.Location = new System.Drawing.Point(307, 143);
             this.closeButton.Name = "closeButton";
             this.closeButton.Size = new System.Drawing.Size(75, 23);
             this.closeButton.TabIndex = 7;
@@ -120,7 +121,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(364, 178);
+            this.ClientSize = new System.Drawing.Size(394, 178);
             this.Controls.Add(this.closeButton);
             this.Controls.Add(this.checkBox2);
             this.Controls.Add(this.textBox3);
@@ -130,6 +131,7 @@
             this.Controls.Add(this.Start);
             this.Controls.Add(this.getProxies);
             this.Name = "Form1";
+            this.ShowIcon = false;
             this.Text = "DAC by Eat Me";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
